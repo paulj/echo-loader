@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Echo Loader Demo</title>
+  <meta name="echo.key" content="test.echoenabled.com">
+  <script type="text/javascript" src="head.load.min.js"></script>
+  <script type="text/javascript" src="echo-loader.js"></script>
+  
+</head>
+<body>
+  <div class="echo-canvas" data-echo-canvas-id="test.canvas001"></div>
+  <script>
+    Echo.override('test.canvas001', 'app1', {
+      'trendCount': 2
+    });
+  </script>
+</body>
+</html>

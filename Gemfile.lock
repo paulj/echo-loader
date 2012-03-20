@@ -1,0 +1,18 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.7)
+    faraday (0.7.6)
+      addressable (~> 2.2)
+      multipart-post (~> 1.1)
+      rack (~> 1.1)
+    json (1.6.5)
+    multipart-post (1.1.5)
+    rack (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  faraday
+  json

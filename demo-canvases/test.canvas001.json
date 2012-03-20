@@ -1,0 +1,20 @@
+{
+  "scripts": [
+    "http://cdn.streamsentiment.com/clientapps/v1/trends.js"
+  ],
+  "content":"<div class=\"echo-app\" data-echo-app-id=\"app1\"></div>",
+  "apps": {
+    "app1": {
+      "obj": "StreamSentiment.BuzzList",
+      "config": {
+        "appkey": "dev.20plus3-staging",
+        "trendName": "trending.articles",
+        "trendedItemScope": "http://reuters.com",
+        "trendCount": 20,
+        "showWeights": false,
+        "textAsLink": true,
+        "weightAsCount": true
+      }
+    }
+  }
+}
